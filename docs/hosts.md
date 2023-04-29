@@ -60,6 +60,13 @@ host('example.org')
 ```
 
 ## Host config
+Set a config variable `$config_var` with a `$value`
+
+```
+host('example.org') 
+   ->set($config_var,$value);
+```
+
 
 ### `alias`
 
